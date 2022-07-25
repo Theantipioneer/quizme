@@ -1,0 +1,31 @@
+// What ive learned is the process of starting to build an app.
+
+// 1 If you are going to be using an api get all the properties of the api to study them to see what you can use fromth api and how you can use it in the design of the app.
+If you are using the api via a rest api then the function will take in properties which will be the api string query parameters.
+
+NB!! Evaluate weather the api response object has all the data in the structure that you desire, else splice and dice the object to create your own data structures that are useful to your project. 
+
+SIDE NOTE: FUNCTIONS TAKE IN PROPERTIES BASICALLY THE SAME PRINCIPLE APPLIES TO HOW COMPONETS TAKE IN PROPS. 
+
+function properties are just variables you are going to be solving for within that function.
+
+// 2 Sketch the deisgn of the app on paper to get an understanding of the components that wil be  required.
+
+// 3 Begin the design coding following the sketch. Build the components UI and the layout of the app and include any funcions that you know you will need. 
+
+// 4 Set the app states.
+
+// 5 Add the logic to the app and get the functionality working.
+
+// 6 In the React, the props we pass are going to be dependent a lot on the states we have set. The UI elements themselves are going to, appear, disappear, change in appearance all based on the state.
+
+  // NB! to add our states before we take in props because the props depend on the state
+
+// 7 Create as many states as possible by asking which ui element sare going to change based on user inputs. Make a list of those and  create state for them. 
+There is a close relationship between props and states. When the props are passed they are like going to take in the corresponding state. 
+
+// 8 On each round aka on the start of a new game we need to set the states to their defaults. We did the same thing on starting a new AR session. I can imagine we do the same thing restarting a new game. 
+
+// 9 ()=> {} returns a void function. This quite different to () => which is a return in and of itself of the thing you put after =>.
+
+// 10 Its really important that we create states because the UI is going to depend on the states.
